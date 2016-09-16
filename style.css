@@ -1,13 +1,40 @@
 body {
     background-color: #095515;
     color: red;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1 {
+    font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 }
 
 h2 {
     color: green;
+    text-transform: uppercase;
+    font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+}
+
+h3 {
+    font-family: "Arial Narrow", Arial, sans-serif;
 }
 
 div {
     background-color: lightYellow;
     color: red;
+    background-image: url(backgroundimage.jpg);
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+}
+
+a {
+    font-size: 150%;
+    font-style: oblique;
+    text-decoration: none;
+}
+
+ol {
+    list-style-type: circle;
 }
