@@ -8,12 +8,15 @@ body {
 main {
     padding: 100px;
     text-align: center;
+    margin: 100px;
+    margin-top: 100px;
 }
 
 h1 {
     background-color: #000000;
     border-radius: 25px;
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+    margin-bottom: 100px;
     margin-top: 100px;
     opacity: 0.6;
     padding: 200px;
@@ -42,7 +45,7 @@ h4 {
 }
 
 div {
-    background-color: lightYellow;
+    background-color: lightyellow;
     background-image: url(backgroundelementimage.jpg);
     background-repeat: no-repeat;
     background-size: 50% 100%;
@@ -63,4 +66,17 @@ a {
 ul {
     list-style-position: inside;
     list-style-type: square;
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.header {
+    position: fixed;
+    left: 10px;
+    height: 10px;
+    top: -10px;
+    z-index: -1;
 }
