@@ -10,13 +10,13 @@ main {
     text-align: center;
     margin: 100px;
     margin-top: 100px;
+    margin-bottom: 30px;
 }
 
 h1 {
     background-color: #000000;
     border-radius: 25px;
     font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    margin-bottom: 100px;
     margin-top: 100px;
     opacity: 0.6;
     padding: 200px;
@@ -30,6 +30,7 @@ h2 {
     font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
     margin-top: 100px;
     text-transform: uppercase;
+    margin-bottom: 60px;
 }
 
 h3 {
@@ -44,6 +45,7 @@ h4 {
     margin-top: 100px;
 }
 
+
 div {
     background-color: lightyellow;
     background-image: url(backgroundelementimage.jpg);
@@ -55,6 +57,7 @@ div {
 footer {
     font-size: 75%;
     font-style: italic;
+    margin-top: 10px;
 }
 
 a {
@@ -79,4 +82,6 @@ img {
     height: 10px;
     top: -10px;
     z-index: -1;
+    margin-bottom: 60px;
 }
+
